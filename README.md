@@ -1,6 +1,6 @@
 # Shopify Backend Intern Challenge - Summer 2022
 
-Check it out [here](https://shopify-backend-2022.netlify.app/)
+Check out the project [here](https://shopify-backend-2022.netlify.app/)!
 
 This document contains documentation and recordings of all technologies and features implented within the project.
 
