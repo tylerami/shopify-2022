@@ -31,7 +31,7 @@ My application adds new features such as additional movie details, mobile friend
 - Express, for API routing
 - Jest and Supertest, for unit testing
 - Cross-env, for MySQL testing environment
-- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/static/ERDiagram.png)
+- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
 - Axios, for API requests
 - React, for frontend design
 - Netlify, for frontend hosting
@@ -42,11 +42,11 @@ Basic CRUD Functionality. This project enables you to:
 
 ### Create Inventory Items
 
-![gif of Create Inventory Items](https://github.com/tylerami/shopify-2022/static/CreateItem.gif)
+![gif of Create Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/CreateItem.gif)
 
 ### View a list of Inventory Items
 
-![gif of View a list of Inventory Items](https://github.com/tylerami/shopify-2022/static/ViewItems.gif)
+![gif of View a list of Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/ViewItems.gif)
 
 ### Edit Inventory Items
 
