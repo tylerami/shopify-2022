@@ -42,7 +42,7 @@ Basic CRUD Functionality. This project enables you to:
 
 ### Create Inventory Items
 
-![gif of Create Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/CreateItem.gif)
+![gid of Create Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/CreateItem.gif)
 
 ### View a list of Inventory Items
 
