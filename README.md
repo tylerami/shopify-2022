@@ -31,7 +31,7 @@ My application adds new features such as additional movie details, mobile friend
 - Express, for API routing
 - Jest and Supertest, for unit testing
 - Cross-env, for MySQL testing environment
-- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
+- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.gif)
 - Axios, for API requests
 - React, for frontend design
 - Netlify, for frontend hosting
@@ -66,7 +66,7 @@ Basic CRUD Functionality. This project enables you to:
 
 This project uses sequelize for Object-Relational Mapping, as shown in the following Entity-Relationship model
 
-![png of MySQL Database ORM](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
+![png of MySQL Database ORM](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.gif)
 
 ### Unit testing
 
