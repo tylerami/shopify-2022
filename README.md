@@ -13,7 +13,7 @@ This document contains documentation and recordings of all technologies and feat
 
 ## TL;DR
 
-My application adds new features such as additional movie details, mobile friendly view, interaction animations, and more! My goal with this project was to create a simple to use platform that also felt fluid to use.
+This application is a prototype called LogistX - an intuitive CRUD API for inventory management that allows for inventory items to be created, updated, and monitored using custom locations.
 
 #### List of Extra Features
 
@@ -60,6 +60,8 @@ Basic CRUD Functionality. This project enables you to:
 
 ### Ability to create warehouses/locations and assign inventory to specific locations
 
+Users can create custom warehouses/shipping centers/vehicles and save them as locations that can be assigned to any inventory item.
+
 ![gif of create warehouses](/static/CreateLocation.gif)
 
 ### MySQL Database ORM
@@ -70,8 +72,12 @@ This project uses sequelize for Object-Relational Mapping, as shown in the follo
 
 ### Unit testing
 
-The testsuite for this project contains 7 tests using Supertest and Jest modules
+The testsuite for this project contains 7 tests using Supertest and Jest modules that verify expected responses for all 7 API endpoints.
+These tests evaluate both the inventory CRUD service and location endpoint responses for proper status codes and deep object equality.
 
 ![gif of testsuite](/static/tests.gif)
 
 ## Reflections
+
+Given more time, I would implement addition testing to verify responses to bad requests include the proper status codes.
+In addition, the location/warehouse assignment functionality could be extended to allow for shipments to be tracked, warehouse capacity to be monitored, and items to be categorized.
