@@ -8,7 +8,7 @@ function App() {
   const [itemsList, setItemsList] = useState([]);
 
   useEffect(() => {
-    getItems();
+    //  getItems();
   }, []);
 
   const getItems = () => {

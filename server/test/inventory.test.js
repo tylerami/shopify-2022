@@ -105,6 +105,4 @@ describe("Inventory API", () => {
         .expect(200);
     });
   });
-
-  afterAll(as);
 });

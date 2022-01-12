@@ -1,16 +1,14 @@
 # Shopify Backend Intern Challenge - Summer 2022
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f5c0408c-13de-4b4a-a477-47ecff6755a1/deploy-status)](https://app.netlify.com/sites/shopify2021/deploys)
-
-Check it out [here](https://shopify2021.netlify.app/)
+Check it out [here](https://shopify-backend-2022.netlify.app/)
 
 This document contains documentation and recordings of all technologies and features implented within the project.
 
 ## Table of Contents
 
 - [TL;DR](https://github.com/tylerami/shopify-2022#tldr)
-- [Technologies](https://github.com/tylerami/shopify-2022#tools)
-- [Project Requirements](https://github.com/tylerami/shopify-2022#specified-features)
+- [Technologies](https://github.com/tylerami/shopify-2022#technologies)
+- [Project Requirements](https://github.com/tylerami/shopify-2022#project-requirements)
 - [Extra Features](https://github.com/tylerami/shopify-2022#extra-features)
 
 ## TL;DR
@@ -33,7 +31,7 @@ My application adds new features such as additional movie details, mobile friend
 - Express, for API routing
 - Jest and Supertest, for unit testing
 - Cross-env, for MySQL testing environment
-- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/)
+- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/static/ERDiagram.png)
 - Axios, for API requests
 - React, for frontend design
 - Netlify, for frontend hosting
@@ -44,33 +42,36 @@ Basic CRUD Functionality. This project enables you to:
 
 ### Create Inventory Items
 
-![gif of Create Inventory Items](https://github.com/tylerami/shopify-2022/)
+![gif of Create Inventory Items](https://github.com/tylerami/shopify-2022/static/CreateItem.gif)
 
 ### View a list of Inventory Items
 
-![gif of View a list of Inventory Items](https://github.com/tylerami/shopify-2022/)
+![gif of View a list of Inventory Items](https://github.com/tylerami/shopify-2022/static/ViewItems.gif)
 
 ### Edit Inventory Items
 
-![gif of Edit Inventory Items](https://github.com/tylerami/shopify-2022/)
+![gif of Edit Inventory Items](https://github.com/tylerami/shopify-2022/static/EditItem.gif)
 
 ### Delete Inventory Items
 
-![gif of Delete Inventory Items](https://github.com/tylerami/shopify-2022/)
+![gif of Delete Inventory Items](https://github.com/tylerami/shopify-2022/static/DeleteItem.gif)
 
 ## Extra Features
 
 ### Ability to create warehouses/locations and assign inventory to specific locations
 
-![gif of create warehouses](https://github.com/tylerami/shopify-2022/)
-![gif of movie details loading in](https://github.com/tylerami/shopify-2022/)
+![gif of create warehouses](https://github.com/tylerami/shopify-2022/static/CreateLocation.gif)
 
 ### MySQL Database ORM
 
-![gif of user loading more results](https://github.com/tylerami/shopify-2022/)
+This project uses sequelize for Object-Relational Mapping, as shown in the following Entity-Relationship model
+
+![png of MySQL Database ORM](https://github.com/tylerami/shopify-2022/static/ERDiagram.png)
 
 ### Unit testing
 
-![gif of collapsed nomination list](https://github.com/tylerami/shopify-2022/)
+The testsuite for this project contains 7 tests using Supertest and Jest modules
+
+![gif of testsuite](https://github.com/tylerami/shopify-2022/static/tests.gif)
 
 ## Reflections

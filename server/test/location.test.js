@@ -3,7 +3,7 @@ const request = require("supertest");
 const app = require("../index");
 
 // Location API service test suite
-describe("Inventory API", () => {
+describe("Location API", () => {
   var id;
   // CREATE location test
   describe("Create Location", () => {
