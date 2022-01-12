@@ -1,4 +1,4 @@
-# Shopify Backend Developer Intern Challenge - Summer 2022
+# Shopify Backend Intern Challenge - Summer 2022
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f5c0408c-13de-4b4a-a477-47ecff6755a1/deploy-status)](https://app.netlify.com/sites/shopify2021/deploys)
 
