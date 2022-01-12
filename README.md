@@ -50,28 +50,28 @@ Basic CRUD Functionality. This project enables you to:
 
 ### Edit Inventory Items
 
-![gif of Edit Inventory Items](https://github.com/tylerami/shopify-2022/static/EditItem.gif)
+![gif of Edit Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/EditItem.gif)
 
 ### Delete Inventory Items
 
-![gif of Delete Inventory Items](https://github.com/tylerami/shopify-2022/static/DeleteItem.gif)
+![gif of Delete Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/DeleteItem.gif)
 
 ## Extra Features
 
 ### Ability to create warehouses/locations and assign inventory to specific locations
 
-![gif of create warehouses](https://github.com/tylerami/shopify-2022/static/CreateLocation.gif)
+![gif of create warehouses](https://github.com/tylerami/shopify-2022/blob/master/static/CreateLocation.gif)
 
 ### MySQL Database ORM
 
 This project uses sequelize for Object-Relational Mapping, as shown in the following Entity-Relationship model
 
-![png of MySQL Database ORM](https://github.com/tylerami/shopify-2022/static/ERDiagram.png)
+![png of MySQL Database ORM](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
 
 ### Unit testing
 
 The testsuite for this project contains 7 tests using Supertest and Jest modules
 
-![gif of testsuite](https://github.com/tylerami/shopify-2022/static/tests.gif)
+![gif of testsuite](https://github.com/tylerami/shopify-2022/blob/master/static/tests.gif)
 
 ## Reflections
