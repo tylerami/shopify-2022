@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+
+body {
+  margin: 0px;
+  background-color: #e7ecef;
+  font-family: "PT Sans";
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  height: 1px;
+  background-color: #274c77;
+  width: 60%;
+  min-width: 60em;
+}
+
+.subheader {
+  margin-bottom: 5px;
+  width: 60%;
+  min-width: 51em;
+  text-align: left;
+}
+
+.header {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  font: 1.2rem "PT Sans";
+  color: #274c77;
+}
+
+.footer {
+  background-color: #e7ecef;
+  height: 5em;
+}
+
+.large-button {
+  margin: 1.5em;
+  width: 40%;
+  border-radius: 12px;
+  border: none;
+  background-color: #6096ba;
+  color: aliceblue;
+  height: 3em;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+}
+
+.inventory {
+  display: flex;
+  width: 60%;
+  min-width: 60em;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.columns {
+  display: flex;
+  width: 90%;
+  padding-left: 2%;
+  min-width: 50em;
+  justify-content: space-evenly;
+}
+
+.columns h4 {
+  width: 10%;
+  padding-bottom: 5px;
+  margin: 0px;
+  font-weight: 600;
+  text-align: left;
+}
