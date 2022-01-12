@@ -31,7 +31,7 @@ My application adds new features such as additional movie details, mobile friend
 - Express, for API routing
 - Jest and Supertest, for unit testing
 - Cross-env, for MySQL testing environment
-- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/static/ERDiagram.png)
+- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
 - Axios, for API requests
 - React, for frontend design
 - Netlify, for frontend hosting
@@ -42,36 +42,36 @@ Basic CRUD Functionality. This project enables you to:
 
 ### Create Inventory Items
 
-![gif of Create Inventory Items](https://github.com/tylerami/shopify-2022/static/CreateItem.gif)
+![gif of Create Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/CreateItem.gif)
 
 ### View a list of Inventory Items
 
-![gif of View a list of Inventory Items](https://github.com/tylerami/shopify-2022/static/ViewItems.gif)
+![gif of View a list of Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/ViewItems.gif)
 
 ### Edit Inventory Items
 
-![gif of Edit Inventory Items](https://github.com/tylerami/shopify-2022/static/EditItem.gif)
+![gif of Edit Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/EditItem.gif)
 
 ### Delete Inventory Items
 
-![gif of Delete Inventory Items](https://github.com/tylerami/shopify-2022/static/DeleteItem.gif)
+![gif of Delete Inventory Items](https://github.com/tylerami/shopify-2022/blob/master/static/DeleteItem.gif)
 
 ## Extra Features
 
 ### Ability to create warehouses/locations and assign inventory to specific locations
 
-![gif of create warehouses](https://github.com/tylerami/shopify-2022/static/CreateLocation.gif)
+![gif of create warehouses](https://github.com/tylerami/shopify-2022/blob/master/static/CreateLocation.gif)
 
 ### MySQL Database ORM
 
 This project uses sequelize for Object-Relational Mapping, as shown in the following Entity-Relationship model
 
-![png of MySQL Database ORM](https://github.com/tylerami/shopify-2022/static/ERDiagram.png)
+![png of MySQL Database ORM](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
 
 ### Unit testing
 
 The testsuite for this project contains 7 tests using Supertest and Jest modules
 
-![gif of testsuite](https://github.com/tylerami/shopify-2022/static/tests.gif)
+![gif of testsuite](https://github.com/tylerami/shopify-2022/blob/master/static/tests.gif)
 
 ## Reflections
