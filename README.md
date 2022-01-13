@@ -44,10 +44,10 @@ To run this project locally instead of viewing the [live site](https://shopify-b
 
 1. Clone this repository locally
 2. Ensure node.js and npm are both installed and up to date on your machine
-3. Open a terminal in the server folder and enter the command: $ node index
-4. Open a new terminal in the client folder and enter the command: $ npm start
+3. Open a terminal in the server folder and enter the command: `$ node index`
+4. Open a new terminal in the client folder and enter the command: `$ npm start`
 
-To run unit tests, simply open a terminal in the server folder and enter the command: $ npm test
+To run unit tests, simply open a terminal in the server folder and enter the command: `$ npm test`
 
 ## Project Requirements
 
