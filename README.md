@@ -1,6 +1,6 @@
 # Shopify Backend Intern Challenge - Summer 2022
 
-Check it out [here](https://shopify-backend-2022.netlify.app/)
+Check out the project [here](https://shopify-backend-2022.netlify.app/)!
 
 This document contains documentation and recordings of all technologies and features implented within the project.
 
@@ -8,6 +8,7 @@ This document contains documentation and recordings of all technologies and feat
 
 - [TL;DR](https://github.com/tylerami/shopify-2022#tldr)
 - [Technologies](https://github.com/tylerami/shopify-2022#technologies)
+- [Instructions](https://github.com/tylerami/shopify-2022#instructions)
 - [Project Requirements](https://github.com/tylerami/shopify-2022#project-requirements)
 - [Extra Features](https://github.com/tylerami/shopify-2022#extra-features)
 
@@ -24,17 +25,29 @@ This application is a prototype called LogistX - an intuitive CRUD API for inven
 
 ## Technologies
 
-- MySQL, for relational database management
-- Heroku, for backend hosting
-- Sequelize, for Object-Relational mapping
-- Node.js, for server-side programming
-- Express, for API routing
-- Jest and Supertest, for unit testing
-- Cross-env, for MySQL testing environment
-- LucidChart, for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
-- Axios, for API requests
-- React, for frontend design
-- Netlify, for frontend hosting
+Click on any of the following technologies to view relevant documentation:
+
+- [MySQL](https://dev.mysql.com/doc/), for relational database management
+- [Heroku](https://devcenter.heroku.com/categories/reference), for backend hosting
+- [Sequelize](https://sequelize.org/), for Object-Relational mapping
+- [Node.js](https://nodejs.org/en/docs/), for server-side programming
+- [Express](https://expressjs.com/en/api.html), for API routing
+- [Jest](https://jestjs.io/docs/getting-started) and [Supertest](https://www.npmjs.com/package/supertest), for unit testing
+- [LucidChart](https://www.lucidchart.com/pages/), for ER diagram design - [See diagram](https://github.com/tylerami/shopify-2022/blob/master/static/ERDiagram.png)
+- [Axios](https://axios-http.com/docs/intro), for API requests
+- [React](https://reactjs.org/), for frontend design
+- [Netlify](https://www.netlify.com/), for frontend hosting
+
+## Instructions
+
+To run this project locally instead of viewing the [live site](https://shopify-backend-2022.netlify.app/), follow these steps:
+
+1. Clone this repository locally
+2. Ensure node.js and npm are both installed and up to date on your machine
+3. Open a terminal in the server folder and enter the command: `$ node index`
+4. Open a new terminal in the client folder and enter the command: `$ npm start`
+
+To run unit tests, simply open a terminal in the server folder and enter the command: `$ npm test`
 
 ## Project Requirements
 
