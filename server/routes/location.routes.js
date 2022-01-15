@@ -14,11 +14,9 @@ const { Location } = require("../models");
 app.post("/createLocation", (req, res) => {
   Location.create(req.body)
     .then((item) => {
-      // Send created location with status: "Created"
       res.status(201).send(item);
     })
     .catch((err) => {
-      // Send status: "Internal Server Error"
       res.status(500).send("Internal Server Error");
     });
 });
@@ -27,11 +25,9 @@ app.post("/createLocation", (req, res) => {
 app.get("/getLocations", (req, res) => {
   Location.findAll()
     .then((loc) => {
-      // Send locations with status: "OK"
       res.status(200).send(loc);
     })
     .catch((err) => {
-      // Send status: "Not Found"
       res.status(404).send("Not found");
     });
 });
@@ -41,11 +37,9 @@ app.delete("/deleteLocation", (req, res) => {
   const id = req.body.id;
   Location.destroy({ where: { id: id } })
     .then((item) => {
-      // Send status: "OK"
       res.status(200).send("Location deleted");
     })
     .catch((err) => {
-      // Send status: "Bad Request"
       res.status(400).send("Bad Request");
     });
 });

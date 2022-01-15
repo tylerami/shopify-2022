@@ -20,11 +20,9 @@ app.post("/createItem", (req, res) => {
     location: req.body.location,
   })
     .then((item) => {
-      // Send created item with status: "Created"
       res.status(201).send(item);
     })
     .catch((err) => {
-      // Send status: "Internal Server Error"
       res.status(500).send("Internal Server Error");
     });
 });
@@ -33,11 +31,9 @@ app.post("/createItem", (req, res) => {
 app.get("/getItems", (req, res) => {
   Inventory.findAll()
     .then((items) => {
-      // Send items with status: "OK"
       res.status(200).send(items);
     })
     .catch((err) => {
-      // Send status: "Not Found"
       res.status(404).send("Not found");
     });
 });
@@ -65,12 +61,10 @@ app.put("/updateItem", (req, res) => {
           res.status(200).send(item);
         })
         .catch((err) => {
-          // Send status: "Internal Server Error"
           res.status(500).send();
         });
     })
     .catch((err) => {
-      // Send status: "Bad Request"
       res.status(400).send("Bad Request");
     });
 });
@@ -80,11 +74,9 @@ app.delete("/deleteItem", (req, res) => {
   const id = req.body.id;
   Inventory.destroy({ where: { id: id } })
     .then((item) => {
-      // Send status: "OK"
       res.status(200).send("Item deleted");
     })
     .catch((err) => {
-      // Send status: "Bad Request"
       res.status(400).send("Bad Request");
     });
 });
