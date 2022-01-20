@@ -93,4 +93,4 @@ These tests evaluate both the inventory CRUD service and location endpoint respo
 ## Reflections
 
 Given more time, I would implement addition testing to verify responses to bad requests include the proper status codes.
-In addition, the location/warehouse assignment functionality could be extended to allow for shipments to be tracked, warehouse capacity to be monitored, and items to be categorized.
+In addition, the location/warehouse assignment functionality could be extended to allow for shipments to be tracked, warehouse capacity to be monitored, and items to be categorized. Lastly, I would adjust the item ORM model to use a foreign key for the relevant location table instead of a string key.
